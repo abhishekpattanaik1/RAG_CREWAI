@@ -1,0 +1,25 @@
+# --- CrewAI core ---
+crewai==1.14.6
+crewai-tools
+
+# --- LangChain ecosystem (pinned together — these versions are cross-compatible) ---
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langchain-text-splitters
+langchain-chroma
+
+# --- Vector store / embeddings backend ---
+chromadb
+
+# --- PDF handling ---
+pypdf
+
+# --- UI ---
+streamlit
+
+# --- Env & API clients ---
+python-dotenv
+google-search-results   # SerpAPI client
+requests
